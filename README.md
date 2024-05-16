@@ -14,4 +14,4 @@ Based on [research](https://github.com/official-stockfish/nnue-pytorch/blob/mast
 - They are then stacked into a 8 neurons which pass through the second layer of size 8. Another Clipped ReLU is applied and the neurons pass through a final layer of size 1.  
 - The remaining neuron is the evaluation of the position. 
 
-For information about the input go [here](https://github.com/official-stockfish/nnue-pytorch/blob/master/docs/nnue.md#feature-set) for the official documentation or [here](https://github.com/VedantJoshi1409/LiChessDb_to_Tensor/tree/main) for my explanation.
+For information about the input format, go [here](https://github.com/official-stockfish/nnue-pytorch/blob/master/docs/nnue.md#feature-set) for the official documentation or [here](https://github.com/VedantJoshi1409/LiChessDb_to_Tensor/tree/main) for my explanation.
